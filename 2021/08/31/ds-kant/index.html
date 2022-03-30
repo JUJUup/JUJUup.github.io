@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"jujuup.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="写在前面：本文写于大四秋季学期的寒假。对于DA，对于Kant，当时未必都有正确的见解，还望读者见谅。文末摆烂的部分得找个时间写完了捏。目前状态：（没动…） 20220314：需要补充一下，现在重看一遍，发现这里只是在非常浅显地讨论贝叶斯与Kant的交集，并没有触及到DA的核心问题。如果有空的话或许会再更进一步聊聊吧。目前状态：（没动…）">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数据同化与康德：如何认识世界">
+<meta property="og:url" content="https://jujuup.github.io/2021/08/31/ds-kant/index.html">
+<meta property="og:site_name" content="菊桔的Garage杂物堆">
+<meta property="og:description" content="写在前面：本文写于大四秋季学期的寒假。对于DA，对于Kant，当时未必都有正确的见解，还望读者见谅。文末摆烂的部分得找个时间写完了捏。目前状态：（没动…） 20220314：需要补充一下，现在重看一遍，发现这里只是在非常浅显地讨论贝叶斯与Kant的交集，并没有触及到DA的核心问题。如果有空的话或许会再更进一步聊聊吧。目前状态：（没动…）">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-08-31T08:52:36.000Z">
+<meta property="article:modified_time" content="2022-03-30T07:11:12.556Z">
+<meta property="article:author" content="菊桔">
+<meta property="article:tag" content="哲学">
+<meta property="article:tag" content="康德">
+<meta property="article:tag" content="数据同化">
+<meta property="article:tag" content="认识论">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://jujuup.github.io/2021/08/31/ds-kant/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>数据同化与康德：如何认识世界 | 菊桔的Garage杂物堆</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">菊桔的Garage杂物堆</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://jujuup.github.io/2021/08/31/ds-kant/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/touxiang.png">
+      <meta itemprop="name" content="菊桔">
+      <meta itemprop="description" content="">
+    </span>
+    
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="菊桔的Garage杂物堆">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          数据同化与康德：如何认识世界
+        </h1>
+    
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+    
+              <time title="创建时间：2021-08-31 16:52:36" itemprop="dateCreated datePublished" datetime="2021-08-31T16:52:36+08:00">2021-08-31</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-03-30 15:11:12" itemprop="dateModified" datetime="2022-03-30T15:11:12+08:00">2022-03-30</time>
+              </span>
+    
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/2021/08/31/ds-kant/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/08/31/ds-kant/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    
+        </div>
+      </header>
+    
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+    
+      
+        <p>写在前面：本文写于大四秋季学期的寒假。对于DA，对于Kant，当时未必都有正确的见解，还望读者见谅。文末摆烂的部分得找个时间写完了捏。目前状态：（没动…）</p>
+<p>20220314：需要补充一下，现在重看一遍，发现这里只是在非常浅显地讨论贝叶斯与Kant的交集，并没有触及到DA的核心问题。如果有空的话或许会再更进一步聊聊吧。目前状态：（没动…）</p>
+<span id="more"></span>
+
+<h2 id="数据同化与康德：如何认识世界"><a href="#数据同化与康德：如何认识世界" class="headerlink" title="数据同化与康德：如何认识世界"></a>数据同化与康德：如何认识世界</h2><h3 id="首先，考虑一个思想实验"><a href="#首先，考虑一个思想实验" class="headerlink" title="首先，考虑一个思想实验"></a>首先，考虑一个思想实验</h3><p>假设一个婴儿生下来的时候没有所有的感觉器官，看不见，听不到，没有触觉/嗅觉/味觉，乃至完全无法接受到外界的任何感官上的信息。如果我们通过某种办法（比如静脉注射）使得这个婴儿得以存活，那么十八年后，他的大脑里会有任何思想吗？</p>
+<p>苏格兰哲学家大卫·休谟认为这个孩子不会有任何思想。想必绝大部分人对此的想法也与休谟一样。这种看法实际上属于经验主义（Empiricism），也即是说，相信所有的认知来自于人的感官经验。这句话很容易被人接受，因为我们的生活常识都遵循这一规律：天生的盲人不会理解什么是色彩，天生的耳聋患者也不会理解什么是音阶。我们缺少了一种感官，就无法理解相关的认知；我们缺少了所有感官，就无法理解这个世界，自然也无法有什么思想可言。这是很合逻辑的推理。但从这一点出发，就可以推出经验主义的两个重要问题：</p>
+<h3 id="经验主义的两个重要问题"><a href="#经验主义的两个重要问题" class="headerlink" title="经验主义的两个重要问题"></a>经验主义的两个重要问题</h3><ol>
+<li><p>什么是本体？我们对世界所有的认知都来自于感官，来自于本体释放的感官信号，那么本体是什么？</p>
+<p>由于所有的知识都是来自于感官的印象，而又没有对本体本身的感官印象，所以可以很自然地推论：关于本体的知识并不存在，它只是我们所想象出来的。这有点像著名的缸中之脑假说。事实上，继续深究只会让人更感迷惑。</p>
+</li>
+<li><p>如果我们按照上面的假设，所有的认知来自于人的感官经验，那么是哪一个感官接收了因果关系之类的抽象知识？</p>
+<p>答案是没有。就像本体一样，因果关系只是一连串事情前赴后继发生时，我们所想象出来的法则而已。一个人如果接受所有的知识都来自于感官，那么休谟认为，他会很自然的接受本体和因果关系等都只不过是人想象的产物。</p>
+</li>
+</ol>
+<p>休谟的结论十分恐怖，逻辑推理，科学，乃至真实的世界都不过是人类的想象。但他的推导过程看起来也毫无漏洞。不过我们必须否定他，不然科学的经验主义难以逃离被自身的逻辑黑洞吞噬的命运。接下来，是主角康德登场的时候了。</p>
+<h3 id="康德，你要如何解决？"><a href="#康德，你要如何解决？" class="headerlink" title="康德，你要如何解决？"></a>康德，你要如何解决？</h3><p>康德试图让科学的经验主义逃离被自身逻辑吞噬的命运。一开始他沿着休谟为他铺好的路前行，“毫无疑问，我们所有的知识开始于感官经验”，但是，“知识的累积并非完全出自于经验”。这看起来像是从鸡蛋里挑骨头，但实际上，就是因为这后半句话，康德从休谟的起点出发，走出了一条完全不同的路。</p>
+<p>康德认为，现实的很多方面都不是通过感官来直接认识的，他把这些方面称之为“先验”（prior）。对数据同化或者对统计稍有了解的朋友们看到这，想必会对这个词感觉非常熟悉了。</p>
+<p>举例来说，时间就是一种先验。我们没有感知时间的感官，时间并不存在于感官的世界当中，但我们感受到外界的讯息时，时间的流逝就已经存在于我们的心中。再比如，宏观世界是连续的，这一种观念也是先验。我们闭上眼睛，视觉感官告诉我们世界的颜色消失了，但我们的意识不会接受这种说法，因为我们的心中有关于世界连续性的先验概念。所以我们认为的现实，其实就是这些先验的概念与感官不断接受到的各种信息的融合。</p>
+<p>我个人认为，这里的先验概念，就是生物本能与经验传承。</p>
+<p>实际上，这就是数据同化。以大气科学为例，我们用大气模式运行出模拟的结果，这就是prior，是先验的概念，它满足我们对物理世界的认识。然后是各类传感器的实时数据，它是我们观察世界的感官经验。将这两者结合起来，用以更好地描述这个世界，就是数据同化。这与康德所提出的认识世界的方法不谋而合。数据同化，就是人认识世界的基本方式。</p>
+<p>行文至此，我想阐述观点的大概已经完毕了。但是还有一个问题：康德的观点如何弥补休谟的经验主义观点所产生的逻辑漏洞？这个实际上与数据同化已经无关了……如果有兴趣，可以参阅《禅与摩托车维修艺术》（Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values）第11节，以及康德本人的著作《纯粹理性批判》（Critique of Pure Reason），当然，我并没有看后面这一本。</p>
+<p>本篇文章不过是拾人牙慧，作者也对西方哲学一窍不通，并深感中文描述哲学的不便。写下此文只因阅读上述书目时，惊奇于数据同化的概念竟与康德的观念如此相似所致。文中必有纰漏，还望批评指正。</p>
+
+    </div>
+    
+    
+    
+    
+    
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E5%93%B2%E5%AD%A6/" rel="tag"># 哲学</a>
+              <a href="/tags/%E5%BA%B7%E5%BE%B7/" rel="tag"># 康德</a>
+              <a href="/tags/%E6%95%B0%E6%8D%AE%E5%90%8C%E5%8C%96/" rel="tag"># 数据同化</a>
+              <a href="/tags/%E8%AE%A4%E8%AF%86%E8%AE%BA/" rel="tag"># 认识论</a>
+          </div>
+    
+        
+
+    
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/08/31/regression/" rel="prev" title="回归分析——从一元线性回归到PLS">
+      <i class="fa fa-chevron-left"></i> 回归分析——从一元线性回归到PLS
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/08/31/moto-license/" rel="next" title="如何在靖江增驾摩托D照">
+      如何在靖江增驾摩托D照 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    
+  <div class="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+  </div>
+  
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E5%90%8C%E5%8C%96%E4%B8%8E%E5%BA%B7%E5%BE%B7%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AE%A4%E8%AF%86%E4%B8%96%E7%95%8C"><span class="nav-number">1.</span> <span class="nav-text">数据同化与康德：如何认识世界</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A6%96%E5%85%88%EF%BC%8C%E8%80%83%E8%99%91%E4%B8%80%E4%B8%AA%E6%80%9D%E6%83%B3%E5%AE%9E%E9%AA%8C"><span class="nav-number">1.1.</span> <span class="nav-text">首先，考虑一个思想实验</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%8F%E9%AA%8C%E4%B8%BB%E4%B9%89%E7%9A%84%E4%B8%A4%E4%B8%AA%E9%87%8D%E8%A6%81%E9%97%AE%E9%A2%98"><span class="nav-number">1.2.</span> <span class="nav-text">经验主义的两个重要问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BA%B7%E5%BE%B7%EF%BC%8C%E4%BD%A0%E8%A6%81%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%EF%BC%9F"><span class="nav-number">1.3.</span> <span class="nav-text">康德，你要如何解决？</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="菊桔"
+      src="/images/touxiang.png">
+  <p class="site-author-name" itemprop="name">菊桔</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/JUJUup" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;JUJUup" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.zhihu.com/people/jin-he-xu-98" title="Zhihu → https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;jin-he-xu-98" rel="noopener" target="_blank"><i class="fab fa-zhihu fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/259337113" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;259337113" rel="noopener" target="_blank"><i class="fas fa-bold fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://c.y.qq.com/base/fcgi-bin/u?__=Qbc9VL4C" title="QQmusic → https:&#x2F;&#x2F;c.y.qq.com&#x2F;base&#x2F;fcgi-bin&#x2F;u?__&#x3D;Qbc9VL4C" rel="noopener" target="_blank"><i class="fas fa-headphones-alt fa-fw"></i></a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-motorcycle"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">菊桔</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://jujuup.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  var disqus_config = function() {
+    this.page.url = "https://jujuup.github.io/2021/08/31/ds-kant/";
+    this.page.identifier = "2021/08/31/ds-kant/";
+    this.page.title = "数据同化与康德：如何认识世界";
+    };
+  NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jujuup.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  });
+</script>
+
+</body>
+</html>
