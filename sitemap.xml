@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://jujuup.github.io/2022/02/03/someidea/</loc>
+    <loc>https://jujuup.github.io/about/index.html</loc>
     
     <lastmod>2022-03-30</lastmod>
     
@@ -12,6 +12,15 @@
   
   <url>
     <loc>https://jujuup.github.io/2022/02/02/ellen/</loc>
+    
+    <lastmod>2022-03-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jujuup.github.io/2022/02/03/someidea/</loc>
     
     <lastmod>2022-03-30</lastmod>
     
@@ -59,15 +68,6 @@
     <loc>https://jujuup.github.io/2021/08/31/ch-phil/</loc>
     
     <lastmod>2022-02-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/about/index.html</loc>
-    
-    <lastmod>2022-02-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
