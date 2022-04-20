@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jujuup.github.io/2022/04/21/bangumi/</loc>
+    
+    <lastmod>2022-04-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jujuup.github.io/2022/03/14/2022books/</loc>
     
     <lastmod>2022-04-20</lastmod>
