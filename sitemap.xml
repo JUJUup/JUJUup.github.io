@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://jujuup.github.io/about/index.html</loc>
+    <loc>https://jujuup.github.io/2022/03/14/2022books/</loc>
     
     <lastmod>2022-05-04</lastmod>
     
@@ -11,9 +11,9 @@
   </url>
   
   <url>
-    <loc>https://jujuup.github.io/2022/03/14/2022books/</loc>
+    <loc>https://jujuup.github.io/about/index.html</loc>
     
-    <lastmod>2022-04-20</lastmod>
+    <lastmod>2022-05-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
