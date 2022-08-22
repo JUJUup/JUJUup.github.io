@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jujuup.github.io/2022/06/29/ruins/</loc>
+    
+    <lastmod>2022-08-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jujuup.github.io/2021/08/31/nihongo/</loc>
     
     <lastmod>2022-08-22</lastmod>
@@ -21,15 +30,6 @@
   
   <url>
     <loc>https://jujuup.github.io/about/index.html</loc>
-    
-    <lastmod>2022-08-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/2022/06/29/ruins/</loc>
     
     <lastmod>2022-08-12</lastmod>
     
