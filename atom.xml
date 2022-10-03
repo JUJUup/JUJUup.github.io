@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>菊桔的Garage杂物堆</title>
+  <icon>https://jujuup.github.io/icon.png</icon>
+  
+  <link href="https://jujuup.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://jujuup.github.io/"/>
+  <updated>2022-09-15T09:15:49.801Z</updated>
+  <id>https://jujuup.github.io/</id>
+  
+  <author>
+    <name>菊桔</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>赛伯朋克/无政府主义随想</title>
+    <link href="https://jujuup.github.io/2022/09/15/cyberpunk/"/>
+    <id>https://jujuup.github.io/2022/09/15/cyberpunk/</id>
+    <published>2022-09-15T08:36:45.000Z</published>
+    <updated>2022-09-15T09:15:49.801Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;《Cyberpunk: Edgerunners》让我重新回想起了刚接触赛伯朋克概念时的战栗，冲动，以及毁灭一切的强烈欲望。最近开始接触到无政府主义的相关书籍（eg. 《我们的敌人：国家》。不过我觉得还是得去补一下洛克的《政府论》），在2077游戏里，我也钟意于与无政府状态最接近的流浪者阵营。或许这两个概念的碰撞中有一些东西是值得谈论的。但我现在还没有足够的知识储备和精力去成体系的讨论这些深刻的问题。&lt;/p&gt;
+&lt;p&gt;此外还找到了一些2022年3月份记录的对于cyperpunk概念的想法。总之，趁看完番后的热情还没有退却，先把思维碎片一股脑端上来吧。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="cyberpunk" scheme="https://jujuup.github.io/tags/cyberpunk/"/>
+    
+    <category term="无政府主义" scheme="https://jujuup.github.io/tags/%E6%97%A0%E6%94%BF%E5%BA%9C%E4%B8%BB%E4%B9%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>姜文/王小波/嬉皮</title>
+    <link href="https://jujuup.github.io/2022/08/20/hipple/"/>
+    <id>https://jujuup.github.io/2022/08/20/hipple/</id>
+    <published>2022-08-20T05:42:41.000Z</published>
+    <updated>2022-08-20T06:12:13.458Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;无论是缅怀，讽刺还是批判，姜文与王小波的作品都沉浸在过去的“黄金时代“中，找不着”现代“的布景。他们俩都是最受不了无聊的人。或许每一个时代的“现代”都是最无聊的。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于废墟的一些呓语</title>
+    <link href="https://jujuup.github.io/2022/06/29/ruins/"/>
+    <id>https://jujuup.github.io/2022/06/29/ruins/</id>
+    <published>2022-06-29T05:59:13.000Z</published>
+    <updated>2022-08-22T12:19:41.520Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;“登大坟以远望兮，聊以舒吾忧心。&lt;/p&gt;
+&lt;p&gt;哀州土之平乐兮，悲江介之遗风。&lt;/p&gt;
+&lt;p&gt;当陵阳之焉至兮，淼南渡之焉如？&lt;/p&gt;
+&lt;p&gt;曾不知夏之为丘兮，孰两东门之可芜！”&lt;/p&gt;
+&lt;p&gt;屈原《哀郢》&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="废墟" scheme="https://jujuup.github.io/tags/%E5%BA%9F%E5%A2%9F/"/>
+    
+    <category term="毁灭" scheme="https://jujuup.github.io/tags/%E6%AF%81%E7%81%AD/"/>
+    
+    <category term="新生" scheme="https://jujuup.github.io/tags/%E6%96%B0%E7%94%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo加plugin：从入门到放弃</title>
+    <link href="https://jujuup.github.io/2022/03/30/yihua/"/>
+    <id>https://jujuup.github.io/2022/03/30/yihua/</id>
+    <published>2022-03-30T09:56:04.000Z</published>
+    <updated>2022-04-02T05:43:26.526Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;写在前面：其实本文和给Hexo加plugin毫无关系。如果更确切一点的话，或许可以起名为：从为什么要给Hexo加plugin聊开去，兼论消费主义对于人的异化。全文就是一些我最近阅读书目内容的大杂烩…&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="异化" scheme="https://jujuup.github.io/tags/%E5%BC%82%E5%8C%96/"/>
+    
+    <category term="消费主义" scheme="https://jujuup.github.io/tags/%E6%B6%88%E8%B4%B9%E4%B8%BB%E4%B9%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2022年的一些阅读记录</title>
+    <link href="https://jujuup.github.io/2022/03/14/2022books/"/>
+    <id>https://jujuup.github.io/2022/03/14/2022books/</id>
+    <published>2022-03-14T03:47:56.000Z</published>
+    <updated>2022-09-28T08:11:35.530Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;写在前面：这里试图用一段话简单评述下2022年以来看过的闲书。一起快乐摸鱼吧！&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="哲学" scheme="https://jujuup.github.io/tags/%E5%93%B2%E5%AD%A6/"/>
+    
+    <category term="书" scheme="https://jujuup.github.io/tags/%E4%B9%A6/"/>
+    
+    <category term="2022" scheme="https://jujuup.github.io/tags/2022/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一些碎片化的句子和想法</title>
+    <link href="https://jujuup.github.io/2022/02/03/someidea/"/>
+    <id>https://jujuup.github.io/2022/02/03/someidea/</id>
+    <published>2022-02-02T17:15:27.000Z</published>
+    <updated>2022-08-06T07:33:11.266Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;疑神疑鬼（中等：成功）：你确定要打开它吗？里面或许是电子垃圾，泔水，报废零件，毫无意义的词语碎片，和&lt;strong&gt;我的* 黑暗 *想法&lt;/strong&gt;。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="闲聊" scheme="https://jujuup.github.io/tags/%E9%97%B2%E8%81%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一些杂文</title>
+    <link href="https://jujuup.github.io/2022/02/02/somessay/"/>
+    <id>https://jujuup.github.io/2022/02/02/somessay/</id>
+    <published>2022-02-02T15:10:38.000Z</published>
+    <updated>2022-07-25T08:33:47.378Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;自己读一遍：我这写的是什么东西？？&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="闲聊" scheme="https://jujuup.github.io/tags/%E9%97%B2%E8%81%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于日本語の勉強</title>
+    <link href="https://jujuup.github.io/2021/08/31/nihongo/"/>
+    <id>https://jujuup.github.io/2021/08/31/nihongo/</id>
+    <published>2021-08-31T13:40:53.000Z</published>
+    <updated>2022-09-22T06:00:15.537Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;写在前面：最近的几次日语能力测试报名太暴力了，简直要脚本挂着刷才能抢到江苏的考点，就一直摆烂没去考。一年前自认霓虹语水平该有N2，现在全然下手くそです……或许有机会有时间的话稍微分享一下个人自学日语的资源和方法吧。（目前进度：90%？）&lt;/p&gt;
+&lt;p&gt;我超，2022年7月的N2居然报上了，爽到！&lt;/p&gt;
+&lt;p&gt;更新：146&amp;#x2F;180过了N2。感觉疫情之下能进考场比考试本身更难…&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="日语" scheme="https://jujuup.github.io/tags/%E6%97%A5%E8%AF%AD/"/>
+    
+    <category term="二外" scheme="https://jujuup.github.io/tags/%E4%BA%8C%E5%A4%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在靖江增驾摩托D照</title>
+    <link href="https://jujuup.github.io/2021/08/31/moto-license/"/>
+    <id>https://jujuup.github.io/2021/08/31/moto-license/</id>
+    <published>2021-08-31T11:40:40.000Z</published>
+    <updated>2022-02-14T02:33:46.799Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;写在前面：由于靖江几个驾校似乎都没有专门的师傅带摩托车考试，问了都只说自己去车管所报名，所以这里考虑给想在靖江增驾摩托车驾照的朋友们稍微写一个流程吧。目前的状态：✅&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="摩托" scheme="https://jujuup.github.io/tags/%E6%91%A9%E6%89%98/"/>
+    
+    <category term="驾照考试" scheme="https://jujuup.github.io/tags/%E9%A9%BE%E7%85%A7%E8%80%83%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据同化与康德：如何认识世界</title>
+    <link href="https://jujuup.github.io/2021/08/31/ds-kant/"/>
+    <id>https://jujuup.github.io/2021/08/31/ds-kant/</id>
+    <published>2021-08-31T08:52:36.000Z</published>
+    <updated>2022-03-30T07:11:12.556Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;写在前面：本文写于大四秋季学期的寒假。对于DA，对于Kant，当时未必都有正确的见解，还望读者见谅。文末摆烂的部分得找个时间写完了捏。目前状态：（没动…）&lt;/p&gt;
+&lt;p&gt;20220314：需要补充一下，现在重看一遍，发现这里只是在非常浅显地讨论贝叶斯与Kant的交集，并没有触及到DA的核心问题。如果有空的话或许会再更进一步聊聊吧。目前状态：（没动…）&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="哲学" scheme="https://jujuup.github.io/tags/%E5%93%B2%E5%AD%A6/"/>
+    
+    <category term="康德" scheme="https://jujuup.github.io/tags/%E5%BA%B7%E5%BE%B7/"/>
+    
+    <category term="数据同化" scheme="https://jujuup.github.io/tags/%E6%95%B0%E6%8D%AE%E5%90%8C%E5%8C%96/"/>
+    
+    <category term="认识论" scheme="https://jujuup.github.io/tags/%E8%AE%A4%E8%AF%86%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>中国古代人生哲学</title>
+    <link href="https://jujuup.github.io/2021/08/31/ch-phil/"/>
+    <id>https://jujuup.github.io/2021/08/31/ch-phil/</id>
+    <published>2021-08-31T08:26:47.000Z</published>
+    <updated>2022-07-10T08:44:31.837Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;写在前面：本文为南京大学“中国古代人生哲学”课程论文，徐小跃教授主讲，写作时间为大二秋季学期。小跃老师上课仅带一壶茶一折扇，讲至兴起会用粉笔上至下右至左地写行草。可惜老师讲课时身体已然不好，不知现在是否仍有精力开课。以下为当年的正文，放在此处聊作记录。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="哲学" scheme="https://jujuup.github.io/tags/%E5%93%B2%E5%AD%A6/"/>
+    
+    <category term="人生" scheme="https://jujuup.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+  </entry>
+  
+</feed>
