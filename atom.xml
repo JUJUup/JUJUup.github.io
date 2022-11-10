@@ -6,7 +6,7 @@
   <link href="https://jujuup.github.io/atom.xml" rel="self"/>
   
   <link href="https://jujuup.github.io/"/>
-  <updated>2022-09-15T09:15:49.801Z</updated>
+  <updated>2022-10-09T17:20:00.205Z</updated>
   <id>https://jujuup.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>UNIX哲学/自行车build/一些反消费主义想法</title>
+    <link href="https://jujuup.github.io/2022/10/09/build-bike/"/>
+    <id>https://jujuup.github.io/2022/10/09/build-bike/</id>
+    <published>2022-10-09T15:44:00.000Z</published>
+    <updated>2022-10-09T17:20:00.205Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;……With Unix, &lt;em&gt;you&lt;/em&gt; will decide how you want to use your computer and how deep you want to get into the details. &lt;strong&gt;You are not stuck with using your computer the way anyone else (such as Microsoft or IBM or your mother) thinks you should use it&lt;/strong&gt;. You can customize your system as you see fit, and you can choose from many well-designed tools and applications.&lt;/p&gt;
+&lt;p&gt;Quote from 《Harley Hahn’s Guide to Unix and Linux》&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+    <category term="消费主义" scheme="https://jujuup.github.io/tags/%E6%B6%88%E8%B4%B9%E4%B8%BB%E4%B9%89/"/>
+    
+    <category term="自行车" scheme="https://jujuup.github.io/tags/%E8%87%AA%E8%A1%8C%E8%BD%A6/"/>
+    
+    <category term="unix" scheme="https://jujuup.github.io/tags/unix/"/>
+    
+  </entry>
   
   <entry>
     <title>赛伯朋克/无政府主义随想</title>
@@ -100,7 +124,7 @@
     <link href="https://jujuup.github.io/2022/03/14/2022books/"/>
     <id>https://jujuup.github.io/2022/03/14/2022books/</id>
     <published>2022-03-14T03:47:56.000Z</published>
-    <updated>2022-09-28T08:11:35.530Z</updated>
+    <updated>2022-11-10T13:44:10.477Z</updated>
     
     
     <summary type="html">&lt;p&gt;写在前面：这里试图用一段话简单评述下2022年以来看过的闲书。一起快乐摸鱼吧！&lt;/p&gt;</summary>
