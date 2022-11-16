@@ -2,27 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://jujuup.github.io/about/index.html</loc>
+    <loc>https://jujuup.github.io/2021/08/31/moto-license/</loc>
     
-    <lastmod>2022-11-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/2022/10/09/build-bike/</loc>
-    
-    <lastmod>2022-11-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/2022/03/14/2022books/</loc>
-    
-    <lastmod>2022-11-10</lastmod>
+    <lastmod>2022-11-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +13,16 @@
   <url>
     <loc>https://jujuup.github.io/2021/08/31/nihongo/</loc>
     
-    <lastmod>2022-09-22</lastmod>
+    <lastmod>2022-11-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jujuup.github.io/2022/10/09/build-bike/</loc>
+    
+    <lastmod>2022-11-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,16 +31,7 @@
   <url>
     <loc>https://jujuup.github.io/2022/09/15/cyberpunk/</loc>
     
-    <lastmod>2022-09-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/2022/06/29/ruins/</loc>
-    
-    <lastmod>2022-08-22</lastmod>
+    <lastmod>2022-11-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,7 +40,70 @@
   <url>
     <loc>https://jujuup.github.io/2022/08/20/hipple/</loc>
     
-    <lastmod>2022-08-20</lastmod>
+    <lastmod>2022-11-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jujuup.github.io/2021/08/31/ds-kant/</loc>
+    
+    <lastmod>2022-11-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jujuup.github.io/2021/08/31/ch-phil/</loc>
+    
+    <lastmod>2022-11-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jujuup.github.io/2022/06/29/ruins/</loc>
+    
+    <lastmod>2022-11-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jujuup.github.io/2022/03/30/yihua/</loc>
+    
+    <lastmod>2022-11-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jujuup.github.io/2022/03/14/2022books/</loc>
+    
+    <lastmod>2022-11-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jujuup.github.io/2022/02/02/somessay/</loc>
+    
+    <lastmod>2022-11-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jujuup.github.io/about/index.html</loc>
+    
+    <lastmod>2022-11-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -68,51 +113,6 @@
     <loc>https://jujuup.github.io/2022/02/03/someidea/</loc>
     
     <lastmod>2022-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/2022/02/02/somessay/</loc>
-    
-    <lastmod>2022-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/2021/08/31/ch-phil/</loc>
-    
-    <lastmod>2022-07-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/2022/03/30/yihua/</loc>
-    
-    <lastmod>2022-04-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/2021/08/31/ds-kant/</loc>
-    
-    <lastmod>2022-03-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/2021/08/31/moto-license/</loc>
-    
-    <lastmod>2022-02-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -139,7 +139,7 @@
 
   <url>
     <loc>https://jujuup.github.io/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <lastmod>2022-11-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -147,147 +147,63 @@
   
   <url>
     <loc>https://jujuup.github.io/tags/%E5%93%B2%E5%AD%A6/</loc>
-    <lastmod>2022-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/tags/%E4%BA%BA%E7%94%9F/</loc>
-    <lastmod>2022-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/tags/%E5%BA%B7%E5%BE%B7/</loc>
-    <lastmod>2022-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/tags/%E6%95%B0%E6%8D%AE%E5%90%8C%E5%8C%96/</loc>
-    <lastmod>2022-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/tags/%E8%AE%A4%E8%AF%86%E8%AE%BA/</loc>
-    <lastmod>2022-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/tags/%E6%91%A9%E6%89%98/</loc>
-    <lastmod>2022-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/tags/%E9%A9%BE%E7%85%A7%E8%80%83%E8%AF%95/</loc>
-    <lastmod>2022-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/tags/%E6%97%A5%E8%AF%AD/</loc>
-    <lastmod>2022-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/tags/%E4%BA%8C%E5%A4%96/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <lastmod>2022-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jujuup.github.io/tags/%E9%97%B2%E8%81%8A/</loc>
-    <lastmod>2022-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/tags/%E4%B9%A6/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <lastmod>2022-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jujuup.github.io/tags/2022/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <lastmod>2022-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jujuup.github.io/tags/%E5%BC%82%E5%8C%96/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <loc>https://jujuup.github.io/tags/China/</loc>
+    <lastmod>2022-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jujuup.github.io/tags/%E6%B6%88%E8%B4%B9%E4%B8%BB%E4%B9%89/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <loc>https://jujuup.github.io/tags/DA/</loc>
+    <lastmod>2022-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jujuup.github.io/tags/%E5%BA%9F%E5%A2%9F/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <loc>https://jujuup.github.io/tags/Vehicle/</loc>
+    <lastmod>2022-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jujuup.github.io/tags/%E6%AF%81%E7%81%AD/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <loc>https://jujuup.github.io/tags/Book/</loc>
+    <lastmod>2022-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jujuup.github.io/tags/%E6%96%B0%E7%94%9F/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <loc>https://jujuup.github.io/tags/Arts/</loc>
+    <lastmod>2022-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jujuup.github.io/tags/cyberpunk/</loc>
-    <lastmod>2022-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/tags/%E6%97%A0%E6%94%BF%E5%BA%9C%E4%B8%BB%E4%B9%89/</loc>
-    <lastmod>2022-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/tags/%E8%87%AA%E8%A1%8C%E8%BD%A6/</loc>
-    <lastmod>2022-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jujuup.github.io/tags/unix/</loc>
-    <lastmod>2022-11-11</lastmod>
+    <loc>https://jujuup.github.io/tags/%E8%AF%AD%E8%A8%80/</loc>
+    <lastmod>2022-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
