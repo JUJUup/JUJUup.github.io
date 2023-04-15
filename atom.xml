@@ -6,7 +6,7 @@
   <link href="https://jujuup.github.io/atom.xml" rel="self"/>
   
   <link href="https://jujuup.github.io/"/>
-  <updated>2023-02-04T17:27:01.103Z</updated>
+  <updated>2023-04-15T12:24:44.821Z</updated>
   <id>https://jujuup.github.io/</id>
   
   <author>
@@ -17,11 +17,29 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Death/Rebirth</title>
+    <link href="https://jujuup.github.io/2023/04/15/reborn/"/>
+    <id>https://jujuup.github.io/2023/04/15/reborn/</id>
+    <published>2023-04-15T10:07:18.000Z</published>
+    <updated>2023-04-15T12:24:44.821Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;世间万物必须受苦，陷入黑暗，死去，然后才能重生。这不是在逃离生命，也不是从生命中暂时抽身休息，而是生命的真正实现：最终燃尽，而后如查拉图斯特拉般再次归来——“就像从阴暗的山后升起的晨曦，热烈而强壮”。&lt;/p&gt;
+&lt;p&gt;[美]约翰·卡格《攀登尼采》&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>毛泽东/末代皇帝/楚狂</title>
     <link href="https://jujuup.github.io/2023/02/04/maotime/"/>
     <id>https://jujuup.github.io/2023/02/04/maotime/</id>
     <published>2023-02-04T13:39:22.000Z</published>
-    <updated>2023-02-04T17:27:01.103Z</updated>
+    <updated>2023-04-15T09:55:11.017Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -168,7 +186,7 @@
     <link href="https://jujuup.github.io/2022/03/14/2022books/"/>
     <id>https://jujuup.github.io/2022/03/14/2022books/</id>
     <published>2022-03-14T03:47:56.000Z</published>
-    <updated>2023-01-08T04:42:07.648Z</updated>
+    <updated>2023-04-11T03:35:44.319Z</updated>
     
     
     <summary type="html">&lt;p&gt;写在前面：这里试图用一段话简单评述下2022年以来看过的闲书。一起快乐摸鱼吧！&lt;/p&gt;</summary>
@@ -185,31 +203,14 @@
   </entry>
   
   <entry>
-    <title>一些碎片化的句子和想法</title>
-    <link href="https://jujuup.github.io/2022/02/03/someidea/"/>
-    <id>https://jujuup.github.io/2022/02/03/someidea/</id>
-    <published>2022-02-02T17:15:27.000Z</published>
-    <updated>2022-11-28T07:09:59.072Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;疑神疑鬼（中等：成功）：你确定要打开它吗？里面或许是电子垃圾，泔水，报废零件，毫无意义的词语碎片，和&lt;strong&gt;我的* 黑暗 *想法&lt;/strong&gt;。&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="闲聊" scheme="https://jujuup.github.io/tags/%E9%97%B2%E8%81%8A/"/>
-    
-  </entry>
-  
-  <entry>
     <title>一些杂文</title>
-    <link href="https://jujuup.github.io/2022/02/02/somessay/"/>
-    <id>https://jujuup.github.io/2022/02/02/somessay/</id>
+    <link href="https://jujuup.github.io/2022/02/02/archive/"/>
+    <id>https://jujuup.github.io/2022/02/02/archive/</id>
     <published>2022-02-02T15:10:38.000Z</published>
-    <updated>2023-01-03T02:37:27.034Z</updated>
+    <updated>2023-04-15T10:24:35.215Z</updated>
     
     
-    <summary type="html">&lt;p&gt;自己读一遍：我这写的是什么东西？？&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;毫无意义的词语碎片聚集地。&lt;/p&gt;</summary>
     
     
     
