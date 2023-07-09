@@ -6,7 +6,7 @@
   <link href="https://jujuup.github.io/atom.xml" rel="self"/>
   
   <link href="https://jujuup.github.io/"/>
-  <updated>2023-06-27T15:54:52.100Z</updated>
+  <updated>2023-06-27T15:39:16.026Z</updated>
   <id>https://jujuup.github.io/</id>
   
   <author>
@@ -15,32 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>changelog</title>
-    <link href="https://jujuup.github.io/2023/06/27/changelog/"/>
-    <id>https://jujuup.github.io/2023/06/27/changelog/</id>
-    <published>2023-06-27T15:39:43.000Z</published>
-    <updated>2023-06-27T15:54:52.100Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;2023-06-27:&lt;/p&gt;
-&lt;p&gt;添加了categories(居然一直没有分类功能…)&lt;/p&gt;
-&lt;p&gt;下次大概会把changelog单独列在menu栏里。(大概)&lt;/p&gt;
-&lt;p&gt;最近一个月经历了一段算不上抑郁的郁郁阶段……感谢野孩子的&lt;strong&gt;石头房子&lt;/stro</summary>
-        
-      
-    
-    
-    
-    <category term="changelog" scheme="https://jujuup.github.io/categories/changelog/"/>
-    
-    
-  </entry>
   
   <entry>
     <title>道/波西米亚/摇滚与后摇滚</title>
@@ -63,30 +37,11 @@
   </entry>
   
   <entry>
-    <title>在linux服务器上自动发邮件</title>
-    <link href="https://jujuup.github.io/2023/06/25/email-in-linux/"/>
-    <id>https://jujuup.github.io/2023/06/25/email-in-linux/</id>
-    <published>2023-06-25T08:09:29.000Z</published>
-    <updated>2023-06-25T08:25:01.942Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;最近又开始了一年一度的台风季搬砖。组里的NCAR GFS&amp;#x2F;GDAS下载脚本已经被我粗糙的改成了自动化version，但是去年实践下来偶尔会因为莫名原因崩掉，所以还是免不了每天上去当赛博监工看看赛博尼哥有没有在好好干活……又犯懒了，得找个办法把赛博监工的活也给代劳一下。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="linux" scheme="https://jujuup.github.io/categories/linux/"/>
-    
-    
-    <category term="linux" scheme="https://jujuup.github.io/tags/linux/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Death/Rebirth</title>
     <link href="https://jujuup.github.io/2023/04/15/reborn/"/>
     <id>https://jujuup.github.io/2023/04/15/reborn/</id>
     <published>2023-04-15T10:07:18.000Z</published>
-    <updated>2023-06-27T15:16:53.619Z</updated>
+    <updated>2023-07-08T08:49:40.928Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -97,7 +52,7 @@
     
     
     
-    <category term="Chat" scheme="https://jujuup.github.io/categories/Chat/"/>
+    <category term="chat" scheme="https://jujuup.github.io/categories/chat/"/>
     
     
     <category term="犯病了" scheme="https://jujuup.github.io/tags/%E7%8A%AF%E7%97%85%E4%BA%86/"/>
