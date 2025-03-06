@@ -6,7 +6,7 @@
   <link href="https://jujuup.github.io/atom.xml" rel="self"/>
   
   <link href="https://jujuup.github.io/"/>
-  <updated>2024-12-03T08:00:58.275Z</updated>
+  <updated>2025-03-04T03:36:50.208Z</updated>
   <id>https://jujuup.github.io/</id>
   
   <author>
@@ -21,10 +21,18 @@
     <link href="https://jujuup.github.io/2024/12/03/all-road-bikes/"/>
     <id>https://jujuup.github.io/2024/12/03/all-road-bikes/</id>
     <published>2024-12-03T06:19:05.000Z</published>
-    <updated>2024-12-03T08:00:58.275Z</updated>
+    <updated>2025-03-04T03:36:50.208Z</updated>
     
     
-    <summary type="html">&lt;p&gt;In a paceline, the all-road bike performed like a great racing bike. On gravel roads, it worked as well as a good mountain bike. On twisty descents, it outshone any other bike, since its wider tires offered more grip and better suspension.&lt;/p&gt;</summary>
+    <summary type="html">&lt;style&gt;
+.special-title {
+    color: #2e3790;
+    font-size: 24px;
+    /* border-bottom: 2px solid blue; */
+}
+&lt;/style&gt;
+
+&lt;p&gt;In a paceline, the all-road bike performed like a great racing bike. On gravel roads, it worked as well as a good mountain bike. On twisty descents, it outshone any other bike, since its wider tires offered more grip and better suspension.&lt;/p&gt;</summary>
     
     
     
