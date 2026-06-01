@@ -6,7 +6,7 @@
   <link href="https://jujuup.github.io/atom.xml" rel="self"/>
   
   <link href="https://jujuup.github.io/"/>
-  <updated>2026-05-31T03:37:59.640Z</updated>
+  <updated>2026-06-01T13:34:52.952Z</updated>
   <id>https://jujuup.github.io/</id>
   
   <author>
@@ -21,65 +21,10 @@
     <link href="https://jujuup.github.io/2024/12/03/all-road-bikes/"/>
     <id>https://jujuup.github.io/2024/12/03/all-road-bikes/</id>
     <published>2024-12-03T06:19:05.000Z</published>
-    <updated>2026-05-31T03:37:59.640Z</updated>
+    <updated>2026-06-01T13:34:52.952Z</updated>
     
     
-    <summary type="html">&lt;style&gt;
-.bilingual-container {
-    margin: 0 -12px;
-}
-.bilingual-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0 24px;
-    margin-bottom: 1.2em;
-    align-items: start;
-}
-.bilingual-en, .bilingual-zh {
-    padding: 0 12px;
-}
-.bilingual-en {
-    border-right: 1px solid #ddd;
-}
-h2.bilingual-title, h3.bilingual-title, h4.bilingual-title {
-    grid-column: 1 / -1;
-    text-align: center;
-    margin: 1.5em 12px 0.8em;
-}
-.bilingual-note {
-    grid-column: 1 / -1;
-    background: #f8f8f8;
-    padding: 10px 16px;
-    border-radius: 6px;
-    margin: 0.8em 12px;
-    font-size: 0.92em;
-    color: #555;
-}
-.special-title {
-    color: #2e3790;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin: 1em 0;
-    grid-column: 1 / -1;
-}
-@media (max-width: 767px) {
-    .bilingual-row {
-        grid-template-columns: 1fr;
-        gap: 8px 0;
-        margin-bottom: 1.5em;
-    }
-    .bilingual-en {
-        border-right: none;
-        border-bottom: 1px dashed #ccc;
-        padding-bottom: 8px;
-    }
-}
-&lt;/style&gt;
-
-&lt;div class=&quot;bilingual-container&quot;&gt;
-
-&lt;div class=&quot;bilingual-row&quot;&gt;&lt;div class=&quot;bilingual-en&quot; style=&quot;grid-column: 1 / -1&quot;&gt;In a paceline, the all-road bike performed like a great racing bike. On gravel roads, it worked as well as a good mountain bike. On twisty descents, it outshone any other bike, since its wider tires offered more grip and better suspension.&lt;/div&gt;&lt;/div&gt;</summary>
+    <summary type="html">&lt;p&gt;In a paceline, the all-road bike performed like a great racing bike. On gravel roads, it worked as well as a good mountain bike. On twisty descents, it outshone any other bike, since its wider tires offered more grip and better suspension.&lt;/p&gt;</summary>
     
     
     
@@ -363,9 +308,9 @@ h2.bilingual-title, h3.bilingual-title, h4.bilingual-title {
     
     <category term="闲聊" scheme="https://jujuup.github.io/tags/%E9%97%B2%E8%81%8A/"/>
     
-    <category term="Book" scheme="https://jujuup.github.io/tags/Book/"/>
-    
     <category term="犯病了" scheme="https://jujuup.github.io/tags/%E7%8A%AF%E7%97%85%E4%BA%86/"/>
+    
+    <category term="Book" scheme="https://jujuup.github.io/tags/Book/"/>
     
   </entry>
   
