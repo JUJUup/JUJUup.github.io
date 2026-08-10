@@ -216,9 +216,9 @@
     <category term="chat" scheme="https://jujuup.github.io/categories/chat/"/>
     
     
-    <category term="哲学" scheme="https://jujuup.github.io/tags/%E5%93%B2%E5%AD%A6/"/>
-    
     <category term="闲聊" scheme="https://jujuup.github.io/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="哲学" scheme="https://jujuup.github.io/tags/%E5%93%B2%E5%AD%A6/"/>
     
     <category term="艺术" scheme="https://jujuup.github.io/tags/%E8%89%BA%E6%9C%AF/"/>
     
@@ -264,9 +264,9 @@
     <category term="chat" scheme="https://jujuup.github.io/categories/chat/"/>
     
     
-    <category term="China" scheme="https://jujuup.github.io/tags/China/"/>
-    
     <category term="闲聊" scheme="https://jujuup.github.io/tags/%E9%97%B2%E8%81%8A/"/>
+    
+    <category term="China" scheme="https://jujuup.github.io/tags/China/"/>
     
     <category term="艺术" scheme="https://jujuup.github.io/tags/%E8%89%BA%E6%9C%AF/"/>
     
@@ -308,9 +308,9 @@
     
     <category term="闲聊" scheme="https://jujuup.github.io/tags/%E9%97%B2%E8%81%8A/"/>
     
-    <category term="犯病了" scheme="https://jujuup.github.io/tags/%E7%8A%AF%E7%97%85%E4%BA%86/"/>
-    
     <category term="Book" scheme="https://jujuup.github.io/tags/Book/"/>
+    
+    <category term="犯病了" scheme="https://jujuup.github.io/tags/%E7%8A%AF%E7%97%85%E4%BA%86/"/>
     
   </entry>
   
